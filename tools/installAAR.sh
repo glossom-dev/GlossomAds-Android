@@ -1,8 +1,8 @@
 #!/bin/sh
 
-GROUP=jp.adfully
-ARTIFACT=adfurikunsdk
-VERSION=1.0.0-SNAPSHOT
+GROUP=com.glossom
+ARTIFACT=glossom-ads-android
+VERSION=1.10.0
 PACKAGING=aar
 
 mvn clean dependency:copy-dependencies -DgroupId=$GROUP -DartifactId=$ARTIFACT -Dversion=$VERSION -Dtype=$PACKAGING -U
