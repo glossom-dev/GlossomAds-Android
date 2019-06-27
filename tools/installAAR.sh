@@ -2,7 +2,7 @@
 
 GROUP=com.glossom
 ARTIFACT=glossom-ads-android
-VERSION=1.9.2
+VERSION=2.0.0
 PACKAGING=aar
 
 mvn clean dependency:copy-dependencies -DgroupId=$GROUP -DartifactId=$ARTIFACT -Dversion=$VERSION -Dtype=$PACKAGING -U
